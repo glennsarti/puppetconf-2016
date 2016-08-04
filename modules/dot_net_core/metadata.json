@@ -1,0 +1,15 @@
+{
+  "name": "glennsarti-dot_net_core",
+  "version": "0.1.0",
+  "author": "glennsarti",
+  "summary": "Installing and managing Microsoft .Net Core installations",
+  "license": "Apache-2.0",
+  "source": "https://github.com/glennsarti/puppetconf-2016",
+  "project_page": "https://github.com/glennsarti/puppetconf-2016",
+  "issues_url": "https://github.com/glennsarti/puppetconf-2016/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
