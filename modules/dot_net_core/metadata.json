@@ -7,8 +7,43 @@
   "source": "https://github.com/glennsarti/puppetconf-2016",
   "project_page": "https://github.com/glennsarti/puppetconf-2016",
   "issues_url": "https://github.com/glennsarti/puppetconf-2016/issues",
+
+"requirements": [
+    {
+      "name": "pe",
+      "version_requirement": ">= 3.0.0"
+    },
+    {
+      "name": "puppet",
+      "version_requirement": ">= 3.0.0"
+    }
+  ],
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "Windows",
+      "operatingsystemrelease": [
+        "Server 2008",
+        "Server 2008 R2",
+        "Server 2012",
+        "Server 2012 R2",
+        "7",
+        "8",
+        "10"
+      ]
+    }
+  ],
   "dependencies": [
-    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+    {
+      "name": "puppetlabs/stdlib",
+      "version_requirement": ">= 1.0.0"
+    },
+    {
+      "name": "puppetlabs/powershell",
+      "version_requirement": ">= 1.0.1 < 3.0.0"
+    },
+    {
+      "name": "badgerious-windows_env"
+    }
   ],
   "data_provider": null
 }
