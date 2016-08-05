@@ -1,4 +1,11 @@
-
+Deprecated
 https://blogs.msdn.microsoft.com/webtopics/2016/01/14/getting-to-the-crux-of-dnvm-dnu-and-dnx-in-asp-net-5/
-
 https://blogs.msdn.microsoft.com/sujitdmello/2015/04/23/step-by-step-installation-instructions-for-getting-dnx-on-your-windows-machine/
+
+d n core
+https://github.com/dotnet/cli
+https://docs.microsoft.com/en-us/dotnet/
+https://docs.asp.net/en/latest/
+
+https://www.microsoft.com/net/download
+https://docs.asp.net/en/latest/publishing/iis.html
