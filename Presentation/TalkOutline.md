@@ -25,6 +25,12 @@ FREAK OUT!
 
 Setup Dev Env. -> Create Module -> Run Module -> Debug Module -> Test Module -> Deploy Module -> Feedback
 
+Basic Categories vv
+* Setup
+* Dev
+* Test
+* Deploy
+
 # How to set up your local computer with common tools for developing Puppet modules
 
 - Choco
