@@ -1,6 +1,6 @@
 define puppetconf_website::install(
   $destination = '',
-  $logoutput = true,
+  $logoutput = false,
 ) {
 
   # Parent directory
@@ -17,13 +17,16 @@ define puppetconf_website::install(
   } ->
   file {"${destination}/project.json":
     source => "puppet:///modules/puppetconf_website/project.json",
-  } ->
+  }
 
   # Package Restore
   exec { "dnc_restore_${destination}":
-    command => template('puppetconf_website/dnc-restore.ps1'),
-    provider => powershell,
+    command   => template('puppetconf_website/dnc-restore.ps1'),
+    provider  => powershell,
     logoutput => $logoutput,
-
+    refreshonly => true,
+    subscribe => File["${destination}/project.json"],
   }
+
+  # TODO install service
 }
