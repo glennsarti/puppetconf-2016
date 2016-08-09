@@ -9,3 +9,8 @@ https://docs.asp.net/en/latest/
 
 https://www.microsoft.com/net/download
 https://docs.asp.net/en/latest/publishing/iis.html
+
+
+Private Forge
+https://github.com/puppetlabs/puppet-forge-web
+https://github.com/puppetlabs/puppet-forge-api
