@@ -5,10 +5,12 @@ $website_dir = "${base_dir}/website"
 
 # Init
 # -----
-#file { $base_dir:
-#  ensure => directory,
-#} ->
+file { $base_dir:
+  ensure => directory,
+} ->
 
+
+notify { "dnc_${$::dotnetcore_version}": }
 
 # DNC Install
 # -----
@@ -20,13 +22,13 @@ $website_dir = "${base_dir}/website"
 #}
 
 
-include puppetconf_website
+#include puppetconf_website
 
 # Website Install
 # -----
-puppetconf_website::install { 'demosite' :
-  destination => $website_dir,
-}
+#puppetconf_website::install { 'demosite' :
+#  destination => $website_dir,
+#}
 
 
 
