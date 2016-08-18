@@ -2,6 +2,7 @@
 modules/powershell
 modules/stdlib
 modules/windowsfeature
+modules/wget
 modules/windows_env
 
 # VSCode
